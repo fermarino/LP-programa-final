@@ -1,13 +1,14 @@
 programa {
+  // Dupla: Fernando Marino e AntÃ´nio Guedes
   inclua biblioteca Matematica --> mat
   funcao inicio() { 
     real opcao, lado_a, lado_b, lado_c, x
   
-    escreva("Programa criado em dupla:\nFernando Marino e Antônio Guedes")
+    escreva("Programa criado em dupla:\nFernando Marino e AntÃ´nio Guedes")
 
     enquanto(opcao != 5) {
-      escreva("\n\n============ MENU DE OPÇÕES =============\n")
-      escreva("O que você quer calcular?\n 1.Cubo\n 2.Paralelepipedo\n 3.Esfera\n 4.Cilindro\n 5. Sair\n Digite o número de sua opção: ")
+      escreva("\n\n============ MENU DE OPÃ‡Ã•ES =============\n")
+      escreva("O que vocÃª quer calcular?\n 1.Cubo\n 2.Paralelepipedo\n 3.Esfera\n 4.Cilindro\n 5. Sair\n Digite o nÃºmero de sua opÃ§Ã£o: ")
       leia(opcao)
       limpa()
 
@@ -45,10 +46,10 @@ programa {
             escreva("Resultado ", x)
             pare
           caso 5: 
-          escreva ("Você saiu do programa.")
+          escreva ("VocÃª saiu do programa.")
             pare
           caso contrario:
-          escreva ("Opção inválida! Tente novamente")
+          escreva ("OpÃ§Ã£o invÃ¡lida! Tente novamente")
         } 
     }
   
